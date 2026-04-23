@@ -69,7 +69,7 @@ def my_is_simple(num): # проверка числа на простоту
     return res
 
 def my_sin(x):
-    result = 0
+    result = 1
     for i in range(50):
         term = ((-1) ** i) * (x ** (2 * i + 1)) / my_factorial(2 * i + 1)
         result += term
