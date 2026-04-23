@@ -33,7 +33,6 @@ def my_cos(x):
         raise ValueError("Аргумент не должен быть бесконечностью или NaN")
     result = 0
     for i in range(50):
-        term = ((-1) ** i) * (x ** (2 * i)) / my_factorial(2 * i)
         result += term
     return result
 
