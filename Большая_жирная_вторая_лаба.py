@@ -1,16 +1,4 @@
-# coding=utf-8
-import math
-
-def my_factorial(num):
-    #Вычисление факториала
-    if not isinstance(num, int):
-        raise TypeError("Факториал определён только для целых чисел")
-    if num < 0:
-        raise ValueError("Факториал не определён для отрицательных чисел")
-    a = 1
-    for i in range(1, num + 1):
-        a = a * i
-    return a
+88
 
 def my_sin(x):
     #Синус через ряд Тейлора: sin(x) = sum((-1)^n * x^(2n+1) / (2n+1)!)
